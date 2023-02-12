@@ -49,10 +49,9 @@ color: #4D5AE5;
 color: #4D5AE5;
 }
 
-.nav-link > span:hover {
-    color: #4D5AE5;
+.nav-link:focus {
+color: #4D5AE5;
 }
-
 
 .hero-section {
    
@@ -90,6 +89,10 @@ color: #4D5AE5;
 }
 
 .btn:hover {
+background-color: #404BBF;
+}
+
+.btn:focus {
 background-color: #404BBF;
 }
 
