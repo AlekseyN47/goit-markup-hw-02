@@ -31,7 +31,7 @@ body {
 
 /**---logo---*/
 .logo {
-    font-family: "Raleway" sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -59,14 +59,21 @@ color: #2E2F42;
     letter-spacing: 0.02em;
 }
 
+.nav-address {
+    font-style: normal;
+}
+
 .nav:hover, 
 .nav:focus {
-color: var(--interactive-elements);
+color: #404bbf;
 }
 
 .contacts {
-    color: var(--secondary-color);
-    font-weight: 400;   
+    color: #434455;
+    font-weight: 400;  
+    font-size: 16px; 
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /* ---hero--- */
